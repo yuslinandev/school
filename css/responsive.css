@@ -1,0 +1,21 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+    .topbar .info-box{
+        display: none;
+    }
+    .caption{
+        padding: 0 40px;
+    }
+    .caption-heading{
+        font-size: 2em;
+        line-height: 1.4em;
+    }
+    .contact-form {
+        max-width: initial;;
+    }
+    .foot-bottom-text{
+        text-align: center;
+    }
+    .footer .content-right{
+        text-align: center;
+    }
+}

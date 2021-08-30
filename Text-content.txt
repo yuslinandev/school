@@ -1,0 +1,60 @@
+<!-- TOPBAR -->
+    
+    <!-- NAVBAR -->
+
+    <!-- CAROUSEL IMAGES -->
+
+    <!-- WELCOME CONTENT -->
+
+    <!-- COURSES -->
+
+    <!-- TEACHERS -->
+
+    <!-- GALLERY -->
+
+    <!-- EVENTS -->
+
+    <!-- TESTIMONIALS -->
+
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
+        
+    <!-- JAVASCRIPT -->
+    <!-- jquery -->
+    <!-- bootstrap -->
+    <!-- owl js-->
+    <!-- fancybox -->
+    <!-- custom js -->
+
+Resources:
+#fontawesome
+https://cdnjs.com/libraries/font-awesome
+
+#bootstrap
+https://getbootstrap.com/docs/5.1/getting-started/download/
+
+#jquery
+https://developers.google.com/speed/libraries#jquery
+
+#owlcarousel
+https://cdnjs.com/libraries/OwlCarousel2
+
+#fancybox
+https://cdnjs.com/libraries/fancybox
+
+Icons:
+https://fontawesome.com/
+Phone: <i class="fas fa-phone"></i>
+Mail: <i class="fas fa-envelope"></i>
+Fb: <i class="fab fa-facebook-f"></i>
+Tw: <i class="fab fa-twitter"></i>
+Ig: <i class="fab fa-instagram"></i>
+User: <i class="fas fa-user"></i>
+Time: <i class="fas fa-clock"></i>
+Calendar: <i class="far fa-calendar-alt"></i>
+
+Text demo:
+Lorem ipsum gravida nibh vel velit auctor 
+aliquetn sollicitudirem quibibendum auci 
+elit cons equat ipsutis sem nibh id elit.

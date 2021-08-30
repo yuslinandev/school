@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website School</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- fancybox -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+</head>
+<body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+        <div class="container pt-2 pb-2">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="info-box">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i> 987 456 567
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i> <a href="mailto:hello@ribosomatic.com">hello@ribosomatic.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-links content-right">
+                        <a href="#" class="fb">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="tw">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="ig">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo detail">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teachers">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL IMAGES -->
+    <section class="banner">
+    	<div class="owl-carousel owl-theme carousel-sliders">
+	    	<div class="item">
+	        	<img src="images/slide1.jpg" alt="Slider">
+	        	<div class="overlay-bg"></div>
+	        	<div class="container">
+	            	<div class="caption">
+	            		<h5 class="caption-supheading">Welcome to Kids</h5>
+		                <h1 class="caption-heading">Best Kindergarten at California</h1>
+		                <a href="#" class="btn btn-secondary">Learn more</a>
+		            </div>  
+	            </div>
+	    	</div>
+	    	<div class="item">
+	            <img src="images/slide2.jpg" alt="Slider">
+	            <div class="overlay-bg"></div>
+	            <div class="container">
+	            	<div class="caption">
+		                <h5 class="caption-supheading">Welcome to Kids</h5>
+		                <h1 class="caption-heading">Best Kindergarten at California</h1>
+		                <a href="#" class="btn btn-secondary">Learn more</a>
+		            </div>  
+	            </div>
+	        </div>  
+	    	<div class="item">
+	            <img src="images/slide3.jpg" alt="Slider"> 
+	            <div class="overlay-bg"></div>
+	            <div class="container">
+	            	<div class="caption">
+		                <h5 class="caption-supheading">Welcome to Kids</h5>
+		                <h1 class="caption-heading">Best Kindergarten at California</h1>
+		                <a href="#" class="btn btn-secondary">Learn more</a>
+		            </div>  
+	            </div>
+	        </div>  
+    	</div>
+	    <div class="custom-nav owl-nav"></div>
+    </section>
+
+    <!-- WELCOME CONTENT -->
+    <section id="about">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="w-100 p-3" src="images/about.jpg" alt="School about">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h2 class="section-subtitle">Welcome to</h2>
+                        <h1 class="section-title">My School WebSite</h1>
+                        <p>Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                            Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                            Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="courses">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Our courses</h2>
+            <h1 class="section-title">Top courses</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="course mb-4">
+                        <div class="course-image">
+                            <img class="transition" src="images/class1.jpg" alt="course detail">
+                        </div>
+                        <div class="course-detail p-4">
+                            <h2>
+                                <a href="#">Music expert course</a>
+                            </h2>
+                            <div class="course-info row pt-2 pb-3">
+                                <div class="col-6">
+                                    <i class="fas fa-user"></i> 50
+                                </div>
+                                <div class="col-6 content-right">
+                                    <i class="fas fa-clock"></i> 5h 40m
+                                </div>
+                            </div>
+                            <div class="course-desc">
+                                <p>Lorem ipsum gravida nibh vel velit auctor 
+                                    aliquetn sollicitudirem quibibendum auci 
+                                    elit cons equat ipsutis sem nibh id elit.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 course-price">
+                                    <span>$ 20</span>
+                                </div>
+                                <div class="col-6 content-right">
+                                    <a class="btn btn-secondary" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <div class="col-md-4">
+                    <div class="course mb-4">
+                        <div class="course-image">
+                            <img class="transition" src="images/class2.jpg" alt="course detail">
+                        </div>
+                        <div class="course-detail p-4">
+                            <h2>
+                                <a href="#">Music expert course</a>
+                            </h2>
+                            <div class="course-info row pt-2 pb-3">
+                                <div class="col-sm-6">
+                                    <i class="fas fa-user"></i> 50
+                                </div>
+                                <div class="col-sm-6 content-right">
+                                    <i class="fas fa-clock"></i> 5h 40m
+                                </div>
+                            </div>
+                            <div class="course-desc">
+                                <p>Lorem ipsum gravida nibh vel velit auctor 
+                                    aliquetn sollicitudirem quibibendum auci 
+                                    elit cons equat ipsutis sem nibh id elit.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 course-price">
+                                    <span>$ 20</span>
+                                </div>
+                                <div class="col-sm-6 course-join content-right">
+                                    <a class="btn btn-secondary" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="course mb-4">
+                        <div class="course-image">
+                            <img class="transition" src="images/class3.jpg" alt="course detail">
+                        </div>
+                        <div class="course-detail p-4">
+                            <h2>
+                                <a href="#">Music expert course</a>
+                            </h2>
+                            <div class="course-info row pt-2 pb-3">
+                                <div class="col-sm-6">
+                                    <i class="fas fa-user"></i> 50
+                                </div>
+                                <div class="col-sm-6 content-right">
+                                    <i class="fas fa-clock"></i> 5h 40m
+                                </div>
+                            </div>
+                            <div class="course-desc">
+                                <p>Lorem ipsum gravida nibh vel velit auctor 
+                                    aliquetn sollicitudirem quibibendum auci 
+                                    elit cons equat ipsutis sem nibh id elit.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 course-price">
+                                    <span>$ 20</span>
+                                </div>
+                                <div class="col-sm-6 course-join content-right">
+                                    <a class="btn btn-secondary" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEACHERS -->
+    <section id="teachers" class="teachers">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Our teachers</h2>
+            <h1 class="section-title">Top teachers</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="teacher transition text-center mb-5 pt-5 pb-5">
+                        <img class="transition mb-4 mx-auto" src="images/teacher1.png" alt="Teacher detail">
+                        <h2>Maximiliam Schmidt</h2>
+                        <h4 class="mb-4">Math especialist</h4>
+                        <p>Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                        </p>
+                        <div class="teacher-social social">
+                            <a href="#" class="fb">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="tw">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="ig">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="teacher transition text-center mb-5 pt-5 pb-5">
+                        <img class="transition mb-4 mx-auto" src="images/teacher2.png" alt="Teacher detail">
+                        <h2>Maximiliam Schmidt</h2>
+                        <h4 class="mb-4">Math especialist</h4>
+                        <p>Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                        </p>
+                        <div class="teacher-social social">
+                            <a href="#" class="fb">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="tw">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="ig">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="teacher transition text-center mb-5 pt-5 pb-5">
+                        <img class="transition mb-4 mx-auto" src="images/teacher3.png" alt="Teacher detail">
+                        <h2>Maximiliam Schmidt</h2>
+                        <h4 class="mb-4">Math especialist</h4>
+                        <p>Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                        </p>
+                        <div class="teacher-social social">
+                            <a href="#" class="fb">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="tw">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="ig">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Our Gallery</h2>
+            <h1 class="section-title">Best moments</h1>
+            <div class="row">
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery1.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery1.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery2.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery2.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery3.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery3.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery1.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery1.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery2.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery2.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery3.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery3.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery1.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery1.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery2.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery2.jpg" alt="image detail">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/gallery3.jpg" data-fancybox>
+                        <img class="transition" src="images/gallery3.jpg" alt="image detail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events" class="events">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Our Events</h2>
+            <h1 class="section-title">Recents events</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="event mb-4">
+                        <div class="event-image">
+                            <img class="transition" src="images/event1.jpg" alt="event detail">
+                        </div>
+                        <div class="event-detail p-3">
+                            <h2 class="pt-2 mb-3">
+                                <a href="#">Chemistry fair coming soon</a>
+                            </h2>
+                            <div class="event-date mb-2">
+                                <i class="far fa-calendar-alt"></i> 28/08/2021 15:00 EST
+                            </div>
+                            <div class="event-desc">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                            </div>
+                            <a class="btn btn-secondary mb-3" href="#">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="event mb-4">
+                        <div class="event-image">
+                            <img class="transition" src="images/event2.jpg" alt="event detail">
+                        </div>
+                        <div class="event-detail p-3">
+                            <h2 class="pt-2 mb-3">
+                                <a href="#">Chemistry fair coming soon</a>
+                            </h2>
+                            <div class="event-date mb-2">
+                                <i class="far fa-calendar-alt"></i> 28/08/2021 15:00 EST
+                            </div>
+                            <div class="event-desc">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                            </div>
+                            <a class="btn btn-secondary mb-3" href="#">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="event mb-4">
+                        <div class="event-image">
+                            <img class="transition" src="images/event3.jpg" alt="event detail">
+                        </div>
+                        <div class="event-detail p-3">
+                            <h2 class="pt-2 mb-3">
+                                <a href="#">Chemistry fair coming soon</a>
+                            </h2>
+                            <div class="event-date mb-2">
+                                <i class="far fa-calendar-alt"></i> 28/08/2021 15:00 EST
+                            </div>
+                            <div class="event-desc">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                            </div>
+                            <a class="btn btn-secondary mb-3" href="#">Join</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Testimonials</h2>
+            <h1 class="section-title">Parents say</h1>
+            <div class="owl-carousel owl-theme carousel-testimonials">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/parent1.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                                <h4>Christian Schmidt</h4>
+                                <h5>CEO Cafeteria</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/parent2.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                                <h4>Christian Schmidt</h4>
+                                <h5>CEO Cafeteria</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/parent3.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                                <h4>Christian Schmidt</h4>
+                                <h5>CEO Cafeteria</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/parent4.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                                    sollicitudirem quibibendum auci elit cons equat 
+                                    ipsutis sem nibh id elit.</p>
+                                <h4>Christian Schmidt</h4>
+                                <h5>CEO Cafeteria</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-desc">
+                        <h1 class="mb-5">Register now</h1>
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                            sollicitudirem quibibendum auci elit cons equat 
+                            ipsutis sem nibh id elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary" type="submit">Send my info</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 foot-col mb-5">
+                    <h4>About</h4>
+                    <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                        sollicitudirem quibibendum auci elit cons equat 
+                        ipsutis sem nibh id elit.</p>
+                </div>
+                <div class="col-md-3 foot-col mb-5">
+                    <h4>Contacts</h4>
+                    <p>123 Ave Street<br />
+                        Nortport, CT 104606</p>
+                    <p>Phone: 51 044 220933<br />
+                        Fax: 51 987 654 321<br />
+                        hello@ribosomatic.com</p>
+                </div>
+                <div class="col-md-3 foot-col mb-5">
+                    <h4>Extra links</h4>
+                    <p><a href="#courses">Courses</a></p>
+                    <p><a href="#teachers">Teachers</a></p>
+                    <p><a href="#gallery">Gallery</a></p>
+                    <p><a href="#events">Events</a></p>
+                    <p><a href="#testimonials">Testimonials</a></p>
+                    <p><a href="#contact">Contact</a></p>
+                </div>
+                <div class="col-md-3 foot-col mb-5">
+                    <h4>School Newsletter</h4>
+                    <p class="mb-3">Subscribe to get updates right in your inbox.
+                        We promise to not send you spams.</p>
+                    <form action="">
+                        <label class="w-100">
+                            <input class="w-100 form-control mb-2" type="text" placeholder="Enter your email*">
+                        </label>
+                        <button class="w-100 btn btn-primary">
+                            Suscribe now!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 pb-5 border-top-logo">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img class="foot-logo" src="images/logo-white.png" alt="Logo School">
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 pb-2">
+            <div class="row">
+                <div class="col-md-8 foot-bottom-text">
+                    <p>Privacy Policy / Sample website education proposal - RibosMatic © 2021 
+                        / All Rights Reserved</p>
+                </div>
+                <div class="col-md-4 social-links content-right">
+                    <a href="#" class="fb">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="tw">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="ig">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JAVASCRIPT -->
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- owl js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- custom js -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
